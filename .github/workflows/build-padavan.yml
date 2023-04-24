@@ -139,7 +139,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_DROPBEAR=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n" >> .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_SERVER=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CLIENT=n" >> .config

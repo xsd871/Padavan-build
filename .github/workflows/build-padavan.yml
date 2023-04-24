@@ -145,10 +145,11 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CLIENT=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CMD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_CURL=y" >> .config
         #echo "CONFIG_FIRMWARE_ENABLE_IPV6=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_IPSET=n" >> .config 
-        echo "CONFIG_FIRMWARE_WEBUI_HIDE_VPN =n" >> .config
+        echo "CONFIG_FIRMWARE_WEBUI_HIDE_VPN =y" >> .config
         fi
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可

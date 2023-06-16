@@ -149,6 +149,7 @@ jobs:
         #echo "CONFIG_FIRMWARE_ENABLE_IPV6=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_IPSET=n" >> .config 
+        echo "CONFIG_FIRMWARE_INCLUDE_QOS=y" >> .config
         echo "CONFIG_FIRMWARE_WEBUI_HIDE_VPN =n" >> .config
         fi
         #########################################################################################

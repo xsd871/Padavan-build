@@ -124,7 +124,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_TTYD=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_SFE=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_SFE=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SMBD36=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_NANO=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=n" >> .config

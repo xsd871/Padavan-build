@@ -129,7 +129,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_NANO=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_DDNS_SSL=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_EAP_PEAP=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=n" >> .config

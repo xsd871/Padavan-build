@@ -129,7 +129,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_NANO=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SOCAT=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_DDNS_SSL=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_EAP_PEAP=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=n" >> .config
@@ -146,9 +146,9 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_CMD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_CURL=n" >> .config
-        echo "CONFIG_FIRMWARE_ENABLE_IPV6=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_IPSET=n" >> .config 
+        #echo "CONFIG_FIRMWARE_ENABLE_IPV6=n" >> .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=n" >> .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_IPSET=n" >> .config 
         echo "CONFIG_FIRMWARE_INCLUDE_QOS=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_IMQ=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_IFB=y" >> .config
